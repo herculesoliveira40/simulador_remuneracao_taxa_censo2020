@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simular R$ Censo 2020</title>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> -->
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1> Calculadora Taxa Recenseador </h1>
+      
+        <fieldset>
+            <legend>Dados:</legend>
+            <label for="uv">Unidades Visitadas:</label>
+            <input type="number" name="txtn1" placeholder="Digite um numero" id="uv">
+                <p></p>
+            <label for="aq">Amostra Domicílios Ocupados Questionarios:</label>
+            <input type="number" name="txtn2" placeholder="Digite outro numero" id="aq">
+            <label for="ap">Amostra Pessoas:</label>
+            <input type="number" name="txtn3" placeholder="Digite outro numero" id="ap">
+                <p></p>
+            <label for="bq">Basico Domicílios Ocupados Questionarios:</label>
+            <input type="number" name="txtn4" placeholder="Digite outro numero" id="bq">
+            <label for="bp">Basico Pessoas:</label>
+            <input type="number" name="txtn5" placeholder="Digite outro numero" id="bp">
+            
+           </fieldset>
+    </div>
+
+    <div>
+        <form action="#" class="form-contact" method="post" tabindex="1">
+            <fieldset>
+                <Legend><strong> Click para escolher a taxa ZONA URBANA : </strong></Legend>
+
+                <div class="dblock">
+                    <input type="button" value="1 URBANA" onclick="taxaU1()">
+                    <input type="button" value="2 URBANA" onclick="taxaU2()">
+                    <input type="button" value="3 URBANA" onclick="taxaU1()">
+                    <input type="button" value="4 URBANA" onclick="taxaU1()">
+                    <input type="button" value="5 URBANA" onclick="taxaU1()">
+
+                    <input type="button" value="6 URBANA" onclick="taxaU1()">
+                    <input type="button" value="7 URBANA" onclick="taxaU1()">
+                    <input type="button" value="8 URBANA" onclick="taxaU1()">
+                    <input type="button" value="9 URBANA" onclick="taxaU1()">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <Legend><strong> Click para escolher a taxa ZONA RURAL : </strong></Legend>
+
+                <div class="dblock">
+                    <input type="button" value="1 RURAL" onclick="taxaR1()">
+                    <input type="button" value="2 RURAL" onclick="taxaR1()">
+                    <input type="button" value="3 RURAL" onclick="taxaR3()">
+                    <input type="button" value="4 RURAL" onclick="taxaR1()">
+                    <input type="button" value="5 RURAL" onclick="taxaR1()">
+
+                    <input type="button" value="6 RURAL" onclick="taxaR1()">
+                    <input type="button" value="7 RURAL" onclick="taxaR1()">
+                    <input type="button" value="8 RURAL" onclick="taxaR1()">
+                    <input type="button" value="9 RURAL" onclick="taxaR1()">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <Legend><strong> Click para escolher a taxa POVOS E COMUNIDADES TRADICIONAIS: </strong></Legend>
+
+                <div class="dblock">
+                    <input type="button" value="1 PCTA" onclick="taxaPCTA1()">
+                    <input type="button" value="2 PCTA" onclick="taxaPCTA1()">
+                    <input type="button" value="3 PCTA" onclick="taxaPCTA1()">
+                    <input type="button" value="4 PCTA" onclick="taxaPCTA1()">
+                    <input type="button" value="5 PCTA" onclick="taxaPCTA1()">
+
+                    <input type="button" value="6 PCTA" onclick="taxaPCTA1()">
+                    <input type="button" value="7 PCTA" onclick="taxaPCTA1()">
+                    <input type="button" value="8 PCTA" onclick="taxaPCTA1()">
+                    <input type="button" value="9 PCTA" onclick="taxaPCTA1()">
+
+
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+    <h1> Resultado: </h1>
+    <section id="res" style="color: red;">
+       
+        <h2>  </h2>
+    </section>
+</body>
+<p> 2022 <a href="https://github.com/herculesoliveira40" target="_blank"> Shelby &copy;</a> </strong> </p>
+
+</html>
