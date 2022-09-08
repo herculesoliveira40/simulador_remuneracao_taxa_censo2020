@@ -23,6 +23,23 @@ function taxaU2() {
     alert(total.toFixed(2) + 'R$')
      resposta.innerHTML = `<h2> U2 Remuneração aproximada de:  ${total.toFixed(2)} R$ </h2>`;
 }
+function taxaU5() {
+    let uv = document.getElementById('uv');
+    let aq = document.getElementById('aq');
+    let ap = document.getElementById('ap');
+    let bq = document.getElementById('bq');
+    let bp = document.getElementById('bp');
+    let resposta = document.getElementById('res');
+    let uv_v = Number(uv.value);
+    let aq_v = Number(aq.value);
+    let ap_v = Number(ap.value);
+    let bq_v = Number(bq.value);
+    let bp_v = Number(bp.value);
+
+    let total = ((uv_v * 0.75) + (aq_v * 2.07) + (ap_v * 2.21) + (bq_v * 1.76) + (bp_v * 1.33))
+
+     resposta.innerHTML = `<h2> U5 Remuneração aproximada de:  ${total.toFixed(2)} R$ </h2>`;
+}
 
 function taxaR3() {
     let uv = document.getElementById('uv');
