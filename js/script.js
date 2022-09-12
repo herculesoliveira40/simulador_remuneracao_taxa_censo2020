@@ -65,8 +65,8 @@ function taxaU2() {
     let bp_v = Number(bp.value);
 
     //let total = ((uv_v * 0.560495410301857) + (aq_v * 1.56709941247662) + (ap_v * 1.67004754906268) + (bq_v * 1.33832577561872) + (bp_v * 1.00660400217476))
-    let total = getTotal("")
-    //let total = ((uv_v * 0.56) + (aq_v * 1.57) + (ap_v * 1.67) + (bq_v * 1.34) + (bp_v * 1.01))
+    //let total = getTotal("")
+    let total = ((uv_v * 0.56) + (aq_v * 1.57) + (ap_v * 1.67) + (bq_v * 1.34) + (bp_v * 1.01))
 
     alert(total.toFixed(2) + 'R$')
      resposta.innerHTML = `<h2> U2 Remuneração aproximada de:  ${total.toFixed(2)} R$ </h2>`;

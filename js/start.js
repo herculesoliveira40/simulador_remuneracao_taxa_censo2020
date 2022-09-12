@@ -35,7 +35,7 @@ var Calculador = {
     
         let total = 0
         arryChaves.forEach((el, index) => {
-            total +=  parseFloat(inputs[index].value) + parseFloat(urbana[chave][el])
+            total +=  parseFloat(inputs[index].value) * parseFloat(urbana[chave][el])
         }) 
         
         return total

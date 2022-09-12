@@ -1,5 +1,12 @@
+body {
+    background-color: azure;}
+
+label, legend{
+    font-size: 26; font-family: Arial, Helvetica, sans-serif;}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 18pt;
+    
     
 }
