@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descobrir Cor</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"> -->
+</head>
+<header>
+    <nav>
+        <a href="https://sr2020.netlify.app/discovercolor/"> Descubra a cor </a>
+        <a href="https://sr2020.netlify.app/"> R$ Setor Censo </a>
+        <a href="https://sr2020.netlify.app/about/"> Sobre </a> <br>
+
+
+
+    </nav>
+    <h1>Change Color via Input</h1>
+    <input type="text" id="colorInputText">
+    <input type="color" id="colorInputColor">
+    <input type="button" id="colorButton" value="Cick" onclick="changeColor()">
+    
+    <script>
+        function changeColor() {
+            let color = document.getElementById("colorInputColor").value;
+            document.body.style.backgroundColor = color;
+            document.getElementById("colorInputText").value = color;
+
+        }
+
+    </script>
+</body>
+<footer>
+            
+    <p> 2022 <a href="https://github.com/herculesoliveira40" target="_blank"> Shelby &copy;</a> </strong> </p>
+
+</footer>
+</html>
