@@ -12,7 +12,7 @@ var Calculador = {
                 let botaoAtual = evento.target
                 let chaveInputBotao = Object.values(botaoAtual.dataset)[0]
                 total = Calculador.getTotal(chaveInputBotao)
-                pegarElementoHtmlNaLista('#res')['elementoHtml'].innerHTML= `<h2> U2 Remuneração aproximada de:  ${total.toFixed(2)} R$ </h2>`;
+                pegarElementoHtmlNaLista('#res')['elementoHtml'].innerHTML= `<h2> Remuneração estimada de:  ${total.toFixed(2)} R$ </h2>`;
             })
         })
     },

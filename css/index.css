@@ -26,7 +26,14 @@ nav a{
     background-color: rgb(248, 0, 21);
     color: black;
  }
- 
+ input[type=number] {
+    width: 20%;
+    padding: 7px 3px;
+    margin: 1px 8px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+  } 
 footer {
     background-color: rgb(30, 82, 115);
     height: 30px;
@@ -36,7 +43,7 @@ footer {
     padding: 0;
 }
 h1, label, legend{
-    font-size: 26; font-family: Arial, Helvetica, sans-serif;
+    font-size: 20; font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
